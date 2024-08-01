@@ -46,21 +46,15 @@ python dread_calculator.py
 
 ## Interaction
 
-Damage Potential:
+Enter a score based on the potential damage if a threat exploit occurs for each
+ of the following:
 
-Enter a score based on the potential damage if a threat exploit occurs.
-Reproducibility:
+1. Damage Potential
+2. Reproducibility
+3. Exploitability
+4. Affected Users
+5. Discoverability
 
-Enter a score based on how easy it is to reproduce the threat exploit.
-Exploitability:
-
-Enter a score based on the requirements to exploit the threat.
-Affected Users:
-
-Enter a score based on the number of users affected.
-Discoverability:
-
-Enter a score based on how easy it is to discover the threat.
 The script will prompt you for scores in each category and then calculate the
  average DREAD risk score.
 
@@ -68,41 +62,41 @@ The script will prompt you for scores in each category and then calculate the
 
 ### Damage Potential
 
-0: Nothing
-5: Information disclosure that could be used in combination with other
+- 0: Nothing
+- 5: Information disclosure that could be used in combination with other
  vulnerabilities
-8: Non sensitive user data compromised
-9: Administrative non sensitive data compromised
-10: Complete system or data destruction / Application unavailability
+- 8: Non sensitive user data compromised
+- 9: Administrative non sensitive data compromised
+- 10: Complete system or data destruction / Application unavailability
 
 ### Reproducibility
 
-0: Very hard or impossible
-5: Complex steps required
-7.5: Easy steps for authenticated user
-10: Just a web browser needed
+- 0: Very hard or impossible
+- 5: Complex steps required
+- 7.5: Easy steps for authenticated user
+- 10: Just a web browser needed
 
 ### Exploitability
 
-2.5: Advanced programming and networking knowledge
-5: Exploit exists in public
-9: A Web Application Proxy tool
-10: Just a web browser
+- 2.5: Advanced programming and networking knowledge
+- 5: Exploit exists in public
+- 9: A Web Application Proxy tool
+- 10: Just a web browser
 
 ### Affected Users
 
-0: None
-2.5: Individual/employer already compromised
-6: Some users
-8: Administrative users
-10: All users
+- 0: None
+- 2.5: Individual/employer already compromised
+- 6: Some users
+- 8: Administrative users
+- 10: All users
 
 ### Discoverability
 
-0: Very hard
-5: Can figure out by monitoring
-8: Details are public
-10: Visible in address bar or form
+- 0: Very hard
+- 5: Can figure out by monitoring
+- 8: Details are public
+- 10: Visible in address bar or form
 
 ## Contributing
 
