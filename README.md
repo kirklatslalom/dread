@@ -115,5 +115,5 @@ For questions or feedback, please open an issue on the GitHub repository.
 
 ## Acknowledgments
 
-Inspired by the DREAD methodology for risk assessment
+Inspired by the DREAD methodology for risk assessment and Haider's Infosec Blog
 Python community for the robust tools and libraries
